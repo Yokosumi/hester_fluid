@@ -1,4 +1,4 @@
 # todos
 
-- [ ] get resources
+- [x] get resources
 - [ ] build header
