@@ -1,4 +1,6 @@
 # todos
 
 - [x] get resources
-- [ ] build header
+- [x] build header
+- [ ] add text to hero section
+- [ ] add main content

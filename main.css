@@ -7,3 +7,45 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: var(--main-font);
+}
+
+li {
+  list-style: none;
+}
+
+/* background image */
+header {
+  height: 100vh;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/62beadc424b0903088847451/1656663500965-75TNY2P88ZSAKVLUNB0Y/pickle-perfection-v1.jpg?format=1500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* navigation */
+nav {
+  padding: 2rem;
+  color: white;
+}
+/* flex */
+.nav_flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_items_left {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_item_middle {
+  display: flex;
+  justify-content: center;
+  font-size: 700;
+}
+
+.nav_items_right {
+  display: flex;
+  gap: 2rem;
+}
