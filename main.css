@@ -56,7 +56,14 @@ nav {
   justify-content: center;
   align-items: center;
   height: inherit;
-  border: 2px solid red;
+  gap: 1.5rem;
 }
 
-/* button style */
+/* button style  */
+.button_styling {
+  text-decoration: none;
+  font-family: var(--main-font);
+  color: var(--main-color);
+  padding: 1.2rem 2rem;
+  background-color: white;
+}
