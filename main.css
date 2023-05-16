@@ -67,3 +67,9 @@ nav {
   padding: 1.2rem 2rem;
   background-color: white;
 }
+/* header style */
+.hero_header_styling {
+  color: white;
+  font-family: 700;
+  font-size: 3.5rem;
+}
