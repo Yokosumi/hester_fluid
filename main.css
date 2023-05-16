@@ -49,3 +49,14 @@ nav {
   display: flex;
   gap: 2rem;
 }
+
+.section_flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  border: 2px solid red;
+}
+
+/* button style */
