@@ -58,7 +58,23 @@ nav {
   height: inherit;
   gap: 1.5rem;
 }
-
+.content_text_flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.content_img_flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.button_flexbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
 /* button style  */
 .button_styling {
   text-decoration: none;
@@ -67,9 +83,28 @@ nav {
   padding: 1.2rem 2rem;
   background-color: white;
 }
+.colors_inverted {
+  color: white;
+  background-color: var(--main-color);
+}
 /* header style */
 .hero_header_styling {
   color: white;
   font-family: 700;
   font-size: 3.5rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+/* main content  */
+
+.section_height {
+  height: 100vh;
+}
+section {
+  padding: 2rem;
+}
+
+.fontweight_300 {
+  font-weight: 300;
 }
