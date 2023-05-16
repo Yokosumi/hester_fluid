@@ -2,5 +2,6 @@
 
 - [x] get resources
 - [x] build header
-- [ ] add text to hero section
-- [ ] add main content
+- [x] add text to hero section
+- [x] add main content
+- [] fix fontweight issue (fontweight_300)
